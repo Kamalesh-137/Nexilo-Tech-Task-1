@@ -1,0 +1,129 @@
+.body{
+    background-color: black;
+}
+.align{
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: none;
+    margin: 1%;
+}
+.line{
+    margin: -1.25% -1% 0% -1%;
+    text-align: right;
+    /* justify-content: space-between;
+    display: flex; */
+    align-items: center;
+}
+.btn{
+    border: none;
+    text-align: center;
+    background-color: lightcoral;
+    display: inline-block;
+    padding: 14px 16px;
+    border-radius: 5%;
+    color: white;
+    width: 100px;
+}
+.btn:hover{
+    background-color: rgb(74, 74, 75);
+    color: white;
+}
+.photo{
+    width: 85%;
+    height: 525px;
+}
+.content{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* abt */
+.abtcontent{
+    color: lightcoral;
+    text-align: left;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content1{
+    color: white;
+    text-align: left;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.photo1{
+    width: 92%;
+    height: 625px;
+    text-align: center;
+    border-radius: 100%;
+}
+/* skills */
+.skills{
+    text-align: center;
+    color: lightcoral;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.skillbox{
+    color: white;
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+.skillbox:hover{
+    background-color: lightcoral;
+    transform: translateY(-10px);
+}
+.resume{
+    display:block;
+    border: none;
+    background-color: lightcoral;
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 200px;
+}
+.resume:hover{
+    background-color: #262626;
+}
+.download{
+    display: inline-block;
+    margin: 0 42%;
+}
+.download1{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    margin: 10px 0;
+    font-size: 200%;
+}
+.social{
+    margin: 0 43%;
+    font-size: 40px;
+}
+.fa{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 150px;
+    margin-right: 3%;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+    
+}
+.fa:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
